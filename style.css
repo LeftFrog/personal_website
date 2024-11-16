@@ -11,6 +11,15 @@ body {
     line-height: 1.6;
 }
 
+nav {
+    background: #FFFFFF;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 a#id {
     font-family: 'Jost', system-ui, -apple-system, sans-serif;
     color: #1D2030;
