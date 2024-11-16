@@ -13,7 +13,7 @@ body {
 
 header {
     background: #FFFFFF;
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     position: fixed;
     width: 100%;
     top: 0;
@@ -22,6 +22,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    font-family: 'Jost', system-ui, -apple-system, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1D2030;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.logo:hover {
+    color: #948EE0;
 }
 
 nav {
@@ -35,10 +48,4 @@ nav ul {
     justify-content: center;
     gap: 2rem;
     list-style: none;
-}
-
-a#logo {
-    font-family: 'Jost', system-ui, -apple-system, sans-serif;
-    justify-self: left;
-    color: #1D2030;
 }
