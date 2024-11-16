@@ -46,3 +46,14 @@ nav ul {
     gap: 2rem;
     list-style: none;
 }
+
+nav a {
+    text-decoration: none;
+    color: #6B6D7A;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #948EE0;
+}
