@@ -10,3 +10,8 @@ body {
     background: #FFFFFF;
     line-height: 1.6;
 }
+
+a#id {
+    font-family: 'Jost', system-ui, -apple-system, sans-serif;
+    color: #1D2030;
+}
