@@ -58,3 +58,18 @@ nav a {
 nav a:hover {
     color: #948EE0;
 }
+
+
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
