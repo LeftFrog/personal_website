@@ -59,6 +59,13 @@ nav a:hover {
     color: #948EE0;
 }
 
+.section {
+    padding: 5rem 2rem;
+}
+
+.section:nth-child(even) {
+    background: #F5F6FA;
+}
 
 @media (max-width: 768px) {
     header {
