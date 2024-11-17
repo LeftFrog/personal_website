@@ -87,6 +87,21 @@ nav a:hover {
     font-size: 1.25rem;
     color: #6B6D7A;
     padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #948EE0;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #8984cd;
 }
 
 @media (max-width: 768px) {
