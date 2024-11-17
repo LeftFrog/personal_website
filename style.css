@@ -83,6 +83,12 @@ nav a:hover {
     font-weight: 700;
 }
 
+.hero-content p {
+    font-size: 1.25rem;
+    color: #6B6D7A;
+    padding-top: 1rem;
+}
+
 @media (max-width: 768px) {
     header {
         display: flex;
