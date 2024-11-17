@@ -73,7 +73,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, #F5F6FA, #FFFFFF);
+    background: linear-gradient(135deg, rgba(148, 142, 224, 0.2), rgba(148, 142, 224, 0.4));
 }
 
 .hero-content h1 {
