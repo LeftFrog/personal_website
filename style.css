@@ -65,7 +65,7 @@ nav a:hover {
     padding: 5rem 2rem;
 }
 
-.section:nth-child(even) {
+.section:nth-child(odd) {
     background: #F5F6FA;
 }
 
@@ -104,6 +104,33 @@ nav a:hover {
 
 .btn:hover {
     background: #8984cd;
+}
+
+.about {
+    padding: 5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
