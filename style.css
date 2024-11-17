@@ -67,6 +67,15 @@ nav a:hover {
     background: #F5F6FA;
 }
 
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #F5F6FA, #FFFFFF);
+}
+
 @media (max-width: 768px) {
     header {
         display: flex;
