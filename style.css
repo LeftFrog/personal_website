@@ -155,7 +155,11 @@ nav a:hover {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    background: rgb(255,199,19);
+    background: linear-gradient(180deg, rgba(255,199,19,1) 1%, rgba(69,204,181,1) 52%, rgba(34,193,195,1) 100%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 1.5rem 0;
+    transition: transform 0.3s ease-in-out;
 }
 
 .project-img {
@@ -163,6 +167,11 @@ nav a:hover {
     height: 400px;
     object-fit: scale-down;
     transition: transform 0.3s ease-in-out;
+    object-position: bottom;
+}
+
+.project-grid li:hover {
+    transform: scale(1.05);
 }
 
 .project-img:hover {
