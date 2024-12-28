@@ -11,6 +11,64 @@ body {
     line-height: 1.6;
 }
 
+/* Under construction secton */
+.overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(15, 23, 42, 0.95);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 9999;
+}
+
+.content {
+text-align: center;
+padding: 2rem;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 1rem;
+backdrop-filter: blur(8px);
+}
+
+.icon {
+width: 64px;
+height: 64px;
+margin: 0 auto 1rem;
+animation: pulse 2s infinite;
+}
+
+.title {
+color: white;
+font-family: system-ui, -apple-system, sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+margin: 1rem 0;
+}
+
+.subtitle {
+color: rgb(203, 213, 225);
+font-family: system-ui, -apple-system, sans-serif;
+font-size: 1.2rem;
+margin: 0;
+}
+
+@keyframes pulse {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+/* Construction icon */
+.icon::before {
+content: "⚠️";
+font-size: 3rem;
+color: #fbbf24;
+}
+/* End of under construction section */
+
 header {
     background: #FFFFFF;
     padding: 0.8rem 2rem;
